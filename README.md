@@ -5,37 +5,39 @@ CS student at UCLA (class of 2029). I'm into AI, mostly the training side: getti
 **What I'm working on**
 
 <details>
-<summary><b>Sign language translation @ <a href="http://uclalemur.com">Lemur Lab, UCLA</a></b>: training Uni-Sign and mT5 models on How2Sign, experimenting with GRPO and DPO</summary>
-<br>
-
-Real-time sign language → text translation. I own the training side of the project.
-
-- Fine-tuning **Uni-Sign** and **mT5-base** on the How2Sign dataset (NVIDIA Titan RTX and DGX Spark, CUDA 12.2)
-- Designing a **GRPO reward model** that uses the semantic weight of words and source–target alignment strength for better credit assignment
-- Ran 10 comparison experiments on cross-modal alignment and information loss. Best fine-tuned run so far: **BLEU-4 14.43**
-- Tested **DPO** variants for adding context during training. Best so far: **BLEU-4 23.05**
-- Built infra for multi-day training: idle-GPU detection, auto-launch, early stopping and fault recovery. Also fixed video-loading bugs and distributed-training deadlocks
-
-</details>
-
-<details>
-<summary><b>AI agent platform @ Agilean (intern)</b>: scheduling and worker registration for an internal R&D agent platform</summary>
-<br>
-
-- Designed a Jenkins-style **inbound agent** architecture, moving the platform from local config to flexible scheduling
-- Built the end-to-end pipeline for multi-worker registration, environment provisioning and session scheduling
-- Built a **Plan-to-Repo** framework that plugs AI into existing dev workflows, with progress updates, decision points and result validation
-- Validated the platform on real enterprise projects (e.g. a Frappe/Lending management system)
-
-</details>
-
-<details>
 <summary><b>ACM AI at UCLA</b>: Operations Director. I help run workshops and hackathons</summary>
 <br>
 
 - Co-hosted an ACM AI × Google Gemini workshop
 - "AI in Practice" joint event with Product Space
 - Full-day AI hackathon with 70+ attendees
+
+</details>
+
+**Recently**
+
+<details>
+<summary><b>Sign language translation @ <a href="http://uclalemur.com">Lemur Lab, UCLA</a></b>: trained Uni-Sign and mT5 models on How2Sign, experimented with GRPO and DPO (Mar – Sep 2026)</summary>
+<br>
+
+Real-time sign language → text translation. I owned the training side of the project.
+
+- Fine-tuned **Uni-Sign** and **mT5-base** on the How2Sign dataset (NVIDIA Titan RTX and DGX Spark, CUDA 12.2)
+- Designed a **GRPO reward model** that uses the semantic weight of words and source–target alignment strength for better credit assignment
+- Ran 10 comparison experiments on cross-modal alignment and information loss. Best fine-tuned run: **BLEU-4 14.43**
+- Tested **DPO** variants for adding context during training. Best: **BLEU-4 23.05**
+- Built infra for multi-day training: idle-GPU detection, auto-launch, early stopping and fault recovery. Also fixed video-loading bugs and distributed-training deadlocks
+
+</details>
+
+<details>
+<summary><b>AI agent platform @ Agilean (intern)</b>: scheduling and worker registration for an internal R&D agent platform (Jul – Oct 2026)</summary>
+<br>
+
+- Designed a Jenkins-style **inbound agent** architecture, moving the platform from local config to flexible scheduling
+- Built the end-to-end pipeline for multi-worker registration, environment provisioning and session scheduling
+- Built a **Plan-to-Repo** framework that plugs AI into existing dev workflows, with progress updates, decision points and result validation
+- Validated the platform on real enterprise projects (e.g. a Frappe/Lending management system)
 
 </details>
 
@@ -83,6 +85,12 @@ Student researcher, Jan 2024 – Sep 2025.
 
 </details>
 
+**Awards**
+
+- HiMCM Honorable Mention (mathematical modeling), 2022
+- IgniteCS Programming Expo, 2nd place, 2023
+- President's Volunteer Service Award (Gold), 2025
+
 **Stuff I use**
 
 Python · PyTorch · DeepSpeed · C++ · TypeScript · React · Node.js
@@ -93,4 +101,4 @@ Taking CS 111 (operating systems) and M51A (logic design). I'm posting notes and
 
 ---
 
-Resume: [English](./Haotong_Hu_Resume_EN.pdf) · [中文](./Haotong_Hu_Resume_CN.pdf) · Reach me at huht1303 [at] gmail [dot] com.
+Resume: [English](./Haotong_Hu_Resume_EN_1.pdf) · [中文](./Haotong_Hu_Resume_CN_1.pdf) · Reach me at huht1303 [at] gmail [dot] com.
